@@ -23,10 +23,12 @@ Use `cd ~/.npm_global && npm install --save-dev <package>` to install a new
 package and save it as a `devDependency` (recommended, since command line tools
 are generally part of a development workflow anyway).
 
-For convenience, an alias can be created:
+For convenience, a shell function can be created:
 ```sh
 # work with npm in ~/.npm_globals
-alias npm_g='cd ~/.npm_global && npm'
+npm_g() {
+    (cd ~/.npm_global && npm $@)
+}
 ```
 
 For example, this lets you use `npm_g install --save-dev <package>` to install
