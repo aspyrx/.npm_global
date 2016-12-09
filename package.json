@@ -18,12 +18,6 @@
   "homepage": "https://github.com/aspyrx/.npm_global#readme",
   "devDependencies": {
     "avn": "^0.2.3",
-    "avn-nvm": "^0.2.1",
-    "babel-eslint": "^6.1.2",
-    "eslint": "^2.13.1",
-    "eslint-import-resolver-webpack": "^0.3.2",
-    "eslint-plugin-import": "^1.12.0",
-    "eslint-plugin-promise": "^1.3.2",
-    "eslint-plugin-react": "^5.2.2"
+    "avn-nvm": "^0.2.1"
   }
 }
