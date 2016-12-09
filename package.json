@@ -18,6 +18,7 @@
   "homepage": "https://github.com/aspyrx/.npm_global#readme",
   "devDependencies": {
     "avn": "^0.2.3",
-    "avn-nvm": "^0.2.1"
+    "avn-nvm": "^0.2.1",
+    "tern": "^0.20.0"
   }
 }
