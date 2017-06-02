@@ -23,5 +23,12 @@
     "npmrc": "^1.1.1",
     "tern": "^0.20.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "optionalDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-godaddy-react": "^1.1.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-mocha": "^4.9.0",
+    "eslint-plugin-react": "^6.10.3"
+  }
 }
